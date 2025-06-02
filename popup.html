@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+      width: 200px;
+    }
+    label {
+      display: block;
+      margin: 8px 0 4px;
+    }
+  </style>
+</head>
+<body>
+  <label>Delay (seconds):</label>
+  <input type="number" id="delay" min="0.1" step="0.1" />
+
+  <label>Width (% of screen):</label>
+  <input type="number" id="width" min="10" max="100" />
+
+  <label>
+    <input type="checkbox" id="infinityPreview" />
+    Infinite Preview
+  </label>
+
+  <button id="save">Save</button>
+  <button id="reset">Reset</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
