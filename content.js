@@ -3,7 +3,7 @@ let userSettings = {
   width: 80,
   infinity: false
 };
-
+ 
 let hoverTimer;
 let previewBox;
 let closeTimer;
